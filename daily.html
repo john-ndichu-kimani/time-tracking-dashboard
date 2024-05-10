@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        color: aliceblue;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="sidenav">
+          <div class="profile">
+            <img
+              src="images\image-jeremy.png"
+              alt="profile-image"
+              class="profile-img"
+            />
+            <div class="profile-text">
+            <p>Report for</p>
+            <h1>Jeremy Robson</h1>
+          </div>
+          </div>
+          <div class="profile-links">
+            <ul>
+              <li><a href="daily.html" class="active">Daily </a></li>
+              <li><a href="index.html">Weekly </a></li>
+              <li><a href="monthly.html">Monthly </a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="work-card">
+          <div class="icon">
+            <img src="images\icon-work.svg" alt="work-icon" />
+          </div>
+          <div class="card">
+            <div class="card-title">
+              Work
+              <img
+                src="images\icon-ellipsis.svg"
+                alt="ellipse icon"
+                class="ellipse"
+              />
+            </div>
+
+            <div class="card-body">
+              <h1>5hrs</h1>
+              <div class="previous-time-content">
+                <p>Previous - 7hrs</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="play-card">
+          <div class="icon">
+            <img src="images\icon-play.svg" alt="play-icon" />
+          </div>
+          <div class="card">
+            <div class="card-title">
+              Play
+              <img
+                src="images\icon-ellipsis.svg"
+                alt="ellipse icon"
+                class="ellipse"
+              />
+            </div>
+
+            <div class="card-body">
+              <h1>1hr</h1>
+              <div class="previous-time-content">
+                <p>Previous - 2hrs</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="study-card">
+          <div class="icon">
+            <img src="images\icon-study.svg" alt="study-icon" />
+          </div>
+          <div class="card">
+            <div class="card-title">
+              Study
+              <img
+                src="images\icon-ellipsis.svg"
+                alt="ellipse icon"
+                class="ellipse"
+              />
+            </div>
+
+            <div class="card-body">
+              <h1>0hrs</h1>
+              <div class="previous-time-content">
+                <p>Previous - 1hr</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="exercise-card">
+          <div class="icon">
+            <img src="images\icon-exercise.svg" alt="excercise-icon" />
+          </div>
+          <div class="card">
+            <div class="card-title">
+              Excercise
+              <img
+                src="images\icon-ellipsis.svg"
+                alt="ellipse icon"
+                class="ellipse"
+              />
+            </div>
+
+            <div class="card-body">
+              <h1>1hrs</h1>
+              <div class="previous-time-content">
+                <p>Previous - 1hr</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="social-card">
+          <div class="icon">
+            <img src="images\icon-social.svg" alt="social-icon" />
+          </div>
+          <div class="card">
+            <div class="card-title">
+              social
+              <img
+                src="images\icon-ellipsis.svg"
+                alt="ellipse icon"
+                class="ellipse"
+              />
+            </div>
+
+            <div class="card-body">
+              <h1>1hr</h1>
+              <div class="previous-time-content">
+                <p>Previous - 3hrs</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="self-care-card">
+          <div class="icon">
+            <img src="images\icon-self-care.svg" alt="self-care-icon" />
+          </div>
+          <div class="card">
+            <div class="card-title">
+                Self Care
+              <img
+                src="images\icon-ellipsis.svg"
+                alt="ellipse icon"
+                class="ellipse"
+              />
+            </div>
+
+            <div class="card-body">
+              <h1>0hrs</h1>
+              <div class="previous-time-content">
+                <p>Previous - 1hr</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">John Ndichu</a>.
+    </div>
+  </body>
+</html>
